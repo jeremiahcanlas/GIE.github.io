@@ -1,0 +1,268 @@
+body {
+  background-color: black;
+  background-image: url("floralwp.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.main {
+  position: fixed;
+  z-index: 100000;
+  border-bottom: 2px solid #ab904d;
+}
+
+.main .main-logo {
+  background-color: black;
+  padding: 2rem;
+  margin: auto;
+}
+
+.main .navbar {
+  background-color: black;
+  justify-content: flex-start;
+}
+
+.main .navbar .nav-link {
+  color: white;
+}
+
+.main .navbar .nav-link:hover {
+  color: #ab904d;
+}
+
+.main .navbar .btn {
+  background-color: #ab904d;
+  font-size: 0.8rem;
+  margin-left: 2rem;
+  border: 1px solid black;
+}
+
+.book-now {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 18rem;
+  padding-bottom: 4rem;
+}
+
+.book-now .greeting {
+  color: #ab904d;
+  font-size: 1.5rem;
+}
+
+.book-now .btn {
+  border: 3px solid #ab904d;
+  background-color: #ab904d;
+  font-size: 1.5rem;
+}
+
+.book-now h2 {
+  color: #ab904d;
+  font-size: 1.5rem;
+}
+
+.book-now h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.book-now h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.book-now p {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.breakdown {
+  padding: 4rem;
+  background-color: black;
+}
+
+.breakdown h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ab904d;
+}
+
+.breakdown p {
+  text-align: center;
+  color: white;
+}
+
+.prices {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 18rem 0 22rem 0;
+}
+
+.prices h2 {
+  color: #ab904d;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.prices .dynamic {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.prices .dynamic .optional p {
+  color: #ab904d;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.prices .dynamic .optional .policy {
+  font-size: 0.7rem;
+  background-color: black;
+  padding: 1rem;
+}
+
+.prices .dynamic .optional .policy h5 {
+  text-align: center;
+  color: #ab904d;
+}
+
+.prices .dynamic .optional .policy h6 {
+  text-align: center;
+  color: #ab904d;
+}
+
+.prices .dynamic .optional .policy p {
+  font-size: 0.8rem;
+  color: #ab904d;
+}
+
+.prices ul {
+  text-align: center;
+}
+
+.prices a {
+  color: #ab904d;
+  font-size: 1rem;
+}
+
+.prices a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.prices .output {
+  color: white;
+  background-color: black;
+  padding: 0;
+}
+
+.prices .output .thisoutput {
+  padding: 3rem;
+}
+
+.prices .output h4 {
+  color: #ab904d;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.prices .output h5 {
+  font-size: 1rem;
+}
+
+.prices .output p {
+  font-size: 0.7rem;
+}
+
+.promotions {
+  background-color: black;
+  height: 100vh;
+  padding-top: 18rem;
+}
+
+.promotions h2 {
+  color: #ab904d;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.promotions p {
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+
+.hours {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4rem;
+}
+
+.hours h3 {
+  color: #ab904d;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.hours p {
+  text-align: center;
+  color: white;
+}
+
+.location {
+  padding: 0;
+  background-color: black;
+}
+
+.location p {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.location iframe {
+  height: 30vh;
+  width: 100%;
+}
+
+.contactme {
+  background-color: black;
+  padding: 4rem 0 1rem 0;
+}
+
+.contactme h1 {
+  color: #ab904d;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0;
+}
+
+.contactme .social {
+  text-align: center;
+}
+
+.contactme .social a {
+  padding: 0 1rem 0 1rem;
+  font-size: 2rem;
+  color: #ab904d;
+}
+
+.contactme .social a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  padding: 1rem;
+  border-top: 2px solid #ab904d;
+}
+
+footer h3 {
+  color: #ab904d;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+}

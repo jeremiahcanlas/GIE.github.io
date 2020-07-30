@@ -1,0 +1,309 @@
+$main-color:black;
+$sub-color:rgb(171,144,77);
+$fade:rgba(0, 0, 0, 0.8);
+
+
+body {
+    background-color: $main-color;
+    background-image: url('floralwp.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+   
+};
+
+
+.main {
+    position: fixed;
+    z-index: 100000;
+    border-bottom: 2px solid $sub-color;
+
+    .main-logo {
+        background-color: $main-color;
+        padding:2rem;
+        margin: auto;
+       
+    }
+    
+    .navbar {
+        background-color: $main-color;
+        justify-content: flex-start;
+       
+    
+        .nav-link {
+            color: white;
+        }
+        .nav-link:hover {
+            color: $sub-color;
+        }
+
+        .btn {
+            background-color: $sub-color;
+            font-size: 0.8rem;
+            margin-left: 2rem;
+            border: 1px solid $main-color;
+        }
+    
+    }
+}
+
+
+.book-now {
+    text-align: center;
+    background-color: $fade;
+    padding-top: 18rem;
+    padding-bottom: 4rem;
+    
+    
+  
+    .greeting{
+         color: $sub-color;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        border:3px solid $sub-color;
+        background-color: $sub-color;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        color: $sub-color;
+        font-size: 1.5rem;
+    }
+    
+    
+    h3{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    h4 {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    p{
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+
+.breakdown {
+    padding:4rem;
+    background-color: $main-color;
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: $sub-color;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+    }
+
+}
+
+.prices {
+    background-color: $fade;
+    padding: 18rem 0 22rem 0;
+  
+
+   
+    
+    h2 {
+        color:$sub-color;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .dynamic {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+
+     
+
+        .optional {
+
+            p {
+                color: $sub-color;
+                text-align: center;
+                font-size: 1rem;
+                color: white;
+            }
+
+            .policy {
+                font-size: 0.7rem;
+                background-color: $main-color;
+                padding: 1rem;
+
+                h5 {
+                    text-align: center;
+                    color: $sub-color;
+    
+                }
+    
+                h6 {
+                    text-align: center;
+                    color: $sub-color;
+                }
+
+                p{
+                    font-size: 0.8rem;
+                    color: $sub-color;
+                }
+            }
+        }
+    }
+
+    ul {
+       text-align: center;
+    }
+
+    a {
+        color:$sub-color;
+        font-size: 1rem;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+   
+
+    .output {
+        color: white;
+        background-color:$main-color;
+        padding: 0;
+
+        .thisoutput{
+            padding:3rem
+        }
+        
+        h4 {
+            color:$sub-color;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+    
+        h5 {
+            font-size:1rem ;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+
+      
+    }
+    
+    
+    
+}
+
+.promotions {
+    background-color: $main-color;
+    height: 100vh;
+    padding-top: 18rem;
+
+
+    h2 {
+        color: $sub-color;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.hours {
+    background-color: $fade;
+    padding: 4rem;
+
+
+    h3 {
+        color: $sub-color;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+    }
+
+    
+}
+
+.location {
+padding: 0;
+background-color: $main-color;
+
+    p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+        margin-bottom: 0;
+        
+    }
+
+    iframe{
+        height: 30vh;
+        width:100%;
+    }
+
+}
+
+.contactme {
+    background-color: $main-color;
+    padding: 4rem 0 1rem 0;
+
+    h1 {
+        color: $sub-color;
+        font-size: 0.8rem;
+        text-align: center;
+        margin:0;
+    }
+
+    .social {
+        text-align: center;
+
+        a {
+            padding: 0 1rem 0 1rem;
+            font-size: 2rem;
+            color: $sub-color;
+           
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+  
+}
+
+footer {
+background-color:$main-color;
+padding: 1rem;
+border-top: 2px solid $sub-color;
+
+
+    h3{
+        color: $sub-color;
+        font-size: 0.8rem;
+        text-align: center;
+        width:100%
+    }
+
+
+}
