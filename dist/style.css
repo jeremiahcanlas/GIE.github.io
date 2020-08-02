@@ -245,25 +245,24 @@ body:before {
 .promotions {
   background-color: black;
   height: 100vh;
+  width: 100%;
   padding-top: 18rem;
   text-align: center;
 }
 
 .promotions h2 {
   color: #ab904d;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  margin: auto;
 }
 
 .promotions h4 {
   color: white;
-  text-align: center;
 }
 
 .promotions p {
   color: white;
-  text-align: center;
   padding: 0;
 }
 
