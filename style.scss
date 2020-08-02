@@ -27,7 +27,7 @@ body:before {
     height: 100%;
     z-index: -10;
     background-image: url('floralwp.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -299,6 +299,7 @@ body:before {
     background-color: $main-color;
     height: 100vh;
     padding-top: 18rem;
+    text-align: center;
 
 
     h2 {
@@ -318,9 +319,9 @@ body:before {
         padding: 0;
     }
 
-    p:nth-child(5) {
-        margin:0;
-    }
+    // p:nth-child(2) {
+    //     margin:0;
+    // }
 }
 
 .hours {
@@ -444,6 +445,7 @@ border-top: 2px solid $sub-color;
 
 // responsive sizes
 
+//set max width for logo`
 @media screen and (min-width:680px){
 
     .main-logo {
@@ -451,4 +453,31 @@ border-top: 2px solid $sub-color;
         width:680px
     }
     
+}
+
+//landscape media query
+@media screen and (max-height:375px) {
+
+    .main-logo {
+
+        width:300px
+    }
+
+    .book-now {
+        padding-top:11rem ;
+    }
+
+    .prices {
+        padding-top: 11rem;
+    }
+
+    .promotions {
+        padding-top: 10rem;
+        padding-bottom: 14rem;
+    }
+
+   .hours {
+       padding-top: 3rem;
+   }
+
 }

@@ -14,7 +14,7 @@ body:before {
   height: 100%;
   z-index: -10;
   background-image: url("floralwp.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -246,6 +246,7 @@ body:before {
   background-color: black;
   height: 100vh;
   padding-top: 18rem;
+  text-align: center;
 }
 
 .promotions h2 {
@@ -264,10 +265,6 @@ body:before {
   color: white;
   text-align: center;
   padding: 0;
-}
-
-.promotions p:nth-child(5) {
-  margin: 0;
 }
 
 .hours {
@@ -368,5 +365,24 @@ footer h3 a:hover {
 @media screen and (min-width: 680px) {
   .main-logo {
     width: 680px;
+  }
+}
+
+@media screen and (max-height: 375px) {
+  .main-logo {
+    width: 300px;
+  }
+  .book-now {
+    padding-top: 11rem;
+  }
+  .prices {
+    padding-top: 11rem;
+  }
+  .promotions {
+    padding-top: 10rem;
+    padding-bottom: 14rem;
+  }
+  .hours {
+    padding-top: 3rem;
   }
 }
