@@ -2,14 +2,19 @@ $main-color:black;
 $sub-color:rgb(171,144,77);
 $fade:rgba(0, 0, 0, 0.8);
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     background-color: $main-color;
     background-image: url('floralwp.jpg');
     background-repeat: repeat;
-    background-size: contain;
-    background-attachment: fixed;
-   
+    background-size: auto;
+    background-attachment: fixed;   
 };
 
 
@@ -17,17 +22,25 @@ body {
     position: fixed;
     z-index: 100000;
     border-bottom: 2px solid $sub-color;
+    width: 100vw;
+    text-align: center;
 
-    .main-logo {
+    .logo {
         background-color: $main-color;
-        padding:2rem;
-        margin: auto;
        
+
+        .main-logo {
+            background-color:$main-color;
+            padding:2rem;
+            margin: auto;
+           
+        }
     }
+
     
     .navbar {
         background-color: $main-color;
-        justify-content: flex-start;
+        justify-content: center;
        
     
         .nav-link {
@@ -37,12 +50,12 @@ body {
             color: $sub-color;
         }
 
-        .btn {
-            background-color: $sub-color;
-            font-size: 0.8rem;
-            margin-left: 2rem;
-            border: 1px solid $main-color;
-        }
+        // .btn {
+        //     background-color: $sub-color;
+        //     font-size: 0.8rem;
+        //     margin-left: 2rem;
+        //     border: 1px solid $main-color;
+        // }
     
     }
 }
@@ -62,9 +75,15 @@ body {
     }
 
     .btn {
-        border:3px solid $sub-color;
-        background-color: $sub-color;
+        background-color: $main-color;
+        color: $sub-color;
         font-size: 1.5rem;
+        border: 3px solid $sub-color;
+    }
+
+    .btn:hover {
+        background-color: $sub-color;
+        color: $main-color;
     }
 
     h2 {
@@ -95,21 +114,28 @@ body {
     background-color: $main-color;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         text-align: center;
         color: $sub-color;
     }
 
+
+
     p {
         text-align: center;
         color: white;
+
+        span {
+            color: $sub-color;
+            font-style: italic;
+        }
     }
 
 }
 
 .prices {
     background-color: $fade;
-    padding: 18rem 0 22rem 0;
+    padding: 14rem 0 22rem 0;
   
 
    
@@ -118,6 +144,10 @@ body {
         color:$sub-color;
         text-align: center;
         font-size: 1.5rem;
+    }
+
+    ul {
+        padding: 0 1rem;
     }
 
     .dynamic {
@@ -157,7 +187,43 @@ body {
                     color: $sub-color;
                 }
             }
+
+            .covid {
+                @extend .policy;
+                text-align: center;
+                margin-top: 1.5rem;
+
+                p {
+                    text-align: left;
+
+                    a {
+                        color: $sub-color;
+                        font-size: 0.7rem;
+                        font-weight: 800;
+                    }
+                }
+                
+            }
         }
+
+        .book2 {
+            text-align: center;
+        }
+
+        .btn {
+            background-color: $main-color;
+            color: $sub-color;
+            font-size: 1.2rem;
+            border: 2px solid $sub-color;
+        }
+    
+        .btn:hover {
+            background-color: $sub-color;
+            color: $main-color;
+        }
+    
+
+        
     }
 
     ul {
@@ -182,13 +248,20 @@ body {
         padding: 0;
 
         .thisoutput{
-            padding:3rem
+            padding:3rem;
+
+        }
+
+        div {
+            padding: 0;
+            margin-bottom: 2rem;
         }
         
         h4 {
             color:$sub-color;
             text-align: left;
             font-size: 1.2rem;
+            margin-bottom: 1.2rem;
         }
     
         h5 {
@@ -196,9 +269,8 @@ body {
         }
 
         p {
-            font-size: 0.7rem;
+            font-size: 0.9rem;
         }
-
       
     }
     
@@ -214,20 +286,30 @@ body {
 
     h2 {
         color: $sub-color;
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
+        margin-bottom: 1.5rem;
     }
 
+    h4 {
+        color: white;
+        text-align: center;
+    }
     p {
         color: white;
         text-align: center;
         padding: 0;
     }
+
+    p:nth-child(5) {
+        margin:0;
+    }
 }
 
 .hours {
     background-color: $fade;
-    padding: 4rem;
+    padding: 10rem 2rem 0 2rem;
+    height: 100vh;
 
 
     h3 {
@@ -245,7 +327,7 @@ body {
 }
 
 .location {
-padding: 0;
+padding-top:1rem;
 background-color: $main-color;
 
     p{
@@ -266,12 +348,26 @@ background-color: $main-color;
 .contactme {
     background-color: $main-color;
     padding: 4rem 0 1rem 0;
+    text-align: center;
 
     h1 {
         color: $sub-color;
         font-size: 0.8rem;
-        text-align: center;
         margin:0;
+
+        a {
+            @extend h1;
+        }
+    }
+
+    a {
+        @extend h1;
+        font-size:1rem;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
     }
 
     .social {
@@ -285,8 +381,16 @@ background-color: $main-color;
         }
 
         a:hover {
-            color: white;
+            // color: white;
             text-decoration: none;
+        }
+
+        a:hover:first-child {
+            color: lightblue;
+        }
+
+        a:hover:last-child {
+            color:orangered
         }
     }
   
@@ -302,8 +406,32 @@ border-top: 2px solid $sub-color;
         color: $sub-color;
         font-size: 0.8rem;
         text-align: center;
-        width:100%
+        width:100%;
+
+        a {
+            @extend h3;
+
+        }
+
+        a:hover {
+            color:white;
+            text-decoration: none;
+        }
+
+
     }
 
 
+
+}
+
+// responsive sizes
+
+@media screen and (min-width:680px){
+
+    .main-logo {
+        
+        width:680px
+    }
+    
 }

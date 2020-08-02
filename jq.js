@@ -4,8 +4,9 @@ $(document).ready(function () {
 
 // cool intro fade to catch customer attention
     $('.greeting').hide().fadeIn(1500)
-    $('.book-now h2').hide().fadeIn(2500)
-    $('.book-now a').hide().fadeIn(5500)
+    $('.book-now h2').hide().fadeIn(3000)
+    $('.book-now a').hide().fadeIn(6000)
+
 
     
 // when the link are clicked it injects html into the page
@@ -13,7 +14,7 @@ $(document).ready(function () {
 
        
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput">
+        <div class="thisoutput container-fluid">
         <h4>Manicures</h4>
         <h5>Express Manicure  $20</h5>
         <p>Cut, File, Cuticle Care, Regular Polish (20 min)</p>
@@ -34,12 +35,11 @@ $(document).ready(function () {
         </h5>
         <br>
         <h5>Dip Powder Manicure  $38</h5>
-        <p>Dip powder is an innovative manicure that uses a combination of liquids and Powder.
-        The dip powder nail system is <b>odor-free, non-toxic,</b> and <b>enriched with vitamins</b>.
-        Lasts 2-4 weeks, is removed completely and re-applied each manicure to keep nails healthy and
-        looking fresh.</p>
         <p>(45 min - overlay)</p>
         <p>(60 min - Remove & Reapply)</p>
+        </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
         $('.optional').hide()
@@ -52,7 +52,7 @@ $(document).ready(function () {
     $('.pedibtn').click(function(e){
 
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput">
+        <div class="thisoutput container-fluid">
         <h4>Pedicures</h4>
         <h5>Express Pedicure  $30</h5>
         <p>Soak, Cut, File, Cuticle Care, Polish</p>
@@ -66,6 +66,9 @@ $(document).ready(function () {
         <h5>Gel Polish Pedicure  $45</h5>
         <p>Soak, Cut, File, Cuticle care, Callous care, Polish, Massage</p>
         </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
+        </div>
         `)
         $('.optional').hide()
         
@@ -75,7 +78,7 @@ $(document).ready(function () {
     $('.waxbtn').click(function(e){
 
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput row">
+        <div class="thisoutput row container-fluid">
             <div class='col-sm-4'>
                 <h4>Waxing</h4>
                 <p>Brows $14</p>
@@ -110,6 +113,9 @@ $(document).ready(function () {
 
             </div>
         </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
+        </div>
         `)
         $('.optional').hide()
         
@@ -119,11 +125,11 @@ $(document).ready(function () {
     $('.lashbtn').click(function(e){
 
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput row">
+        <div class="thisoutput row container-fluid">
             <div class='col-sm-6'>
                 <h4>Lashes</h4>
                 <p>Lash Lift $60</p>
-                <p><b>Lash Lifts give your natural lashes a beautiful curl!</b></p>
+                <p class='mb-0'><b>Lash Lifts give your natural lashes a beautiful curl!</b></p>
                 <p><b>It is low maintenance, with results lasting up to 8 weeks.</b></p>
                 <p>Lash Lift & Tint $70</p>
             </div>
@@ -132,6 +138,9 @@ $(document).ready(function () {
                 <p>Brow Tint $18</p>
                 <p>Lash Tint $23</p>
             </div>
+        </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
         $('.optional').hide()
@@ -142,7 +151,7 @@ $(document).ready(function () {
     $('.massbtn').click(function(e){
 
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput">
+        <div class="thisoutput container-fluid">
                 <h4>Relaxation Massage</h4>
                 <p>Back & Neck Massage $40</p>
                 <p>Full Body Massage $65</p>
@@ -156,7 +165,7 @@ $(document).ready(function () {
     $('.alabtn').click(function(e){
 
         $('.output').hide().fadeIn().html(`
-        <div class="thisoutput">
+        <div class="thisoutput container-fluid">
                 <h4>A La Carte</h4>
                 <p>Paraffin wax $10</p>
                 <p>French application $10</p>
@@ -168,6 +177,9 @@ $(document).ready(function () {
                 <p>Nail Art Accent Nails $2</p>
                 <p>Nail art all ten nails  $15 & up</p>
         </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
+        </div>
         `)
         $('.optional').hide()
         
@@ -177,11 +189,14 @@ $(document).ready(function () {
     $('.jrbtn').click(function(e){
 
         $('.output').hide().fadeIn(200).html(`
-        <div class="thisoutput">
+        <div class="thisoutput container-fluid jrout">
                 <h4>Junior Services (14 & under)</h4>
                 <p>Manicure $14</p>
                 <p>Pedicure $20</p>
                 <p>Manicure/Pedicure $30</p>
+        </div>
+        <div class="book2 mt-4 pb-4">
+        <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
         $('.optional').hide()

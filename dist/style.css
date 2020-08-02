@@ -1,8 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: black;
   background-image: url("floralwp.jpg");
   background-repeat: repeat;
-  background-size: contain;
+  background-size: auto;
   background-attachment: fixed;
 }
 
@@ -10,9 +16,15 @@ body {
   position: fixed;
   z-index: 100000;
   border-bottom: 2px solid #ab904d;
+  width: 100vw;
+  text-align: center;
 }
 
-.main .main-logo {
+.main .logo {
+  background-color: black;
+}
+
+.main .logo .main-logo {
   background-color: black;
   padding: 2rem;
   margin: auto;
@@ -20,7 +32,7 @@ body {
 
 .main .navbar {
   background-color: black;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .main .navbar .nav-link {
@@ -29,13 +41,6 @@ body {
 
 .main .navbar .nav-link:hover {
   color: #ab904d;
-}
-
-.main .navbar .btn {
-  background-color: #ab904d;
-  font-size: 0.8rem;
-  margin-left: 2rem;
-  border: 1px solid black;
 }
 
 .book-now {
@@ -51,9 +56,15 @@ body {
 }
 
 .book-now .btn {
-  border: 3px solid #ab904d;
-  background-color: #ab904d;
+  background-color: black;
+  color: #ab904d;
   font-size: 1.5rem;
+  border: 3px solid #ab904d;
+}
+
+.book-now .btn:hover {
+  background-color: #ab904d;
+  color: black;
 }
 
 .book-now h2 {
@@ -61,7 +72,7 @@ body {
   font-size: 1.5rem;
 }
 
-.book-now h3 {
+.book-now h3, .book-now footer h3 a, footer h3 .book-now a {
   color: white;
   font-size: 1.5rem;
   margin-top: 3rem;
@@ -83,7 +94,7 @@ body {
 }
 
 .breakdown h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #ab904d;
 }
@@ -93,15 +104,24 @@ body {
   color: white;
 }
 
+.breakdown p span {
+  color: #ab904d;
+  font-style: italic;
+}
+
 .prices {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 18rem 0 22rem 0;
+  padding: 14rem 0 22rem 0;
 }
 
 .prices h2 {
   color: #ab904d;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.prices ul {
+  padding: 0 1rem;
 }
 
 .prices .dynamic {
@@ -117,25 +137,56 @@ body {
   color: white;
 }
 
-.prices .dynamic .optional .policy {
+.prices .dynamic .optional .policy, .prices .dynamic .optional .covid {
   font-size: 0.7rem;
   background-color: black;
   padding: 1rem;
 }
 
-.prices .dynamic .optional .policy h5 {
+.prices .dynamic .optional .policy h5, .prices .dynamic .optional .covid h5 {
   text-align: center;
   color: #ab904d;
 }
 
-.prices .dynamic .optional .policy h6 {
+.prices .dynamic .optional .policy h6, .prices .dynamic .optional .covid h6 {
   text-align: center;
   color: #ab904d;
 }
 
-.prices .dynamic .optional .policy p {
+.prices .dynamic .optional .policy p, .prices .dynamic .optional .covid p {
   font-size: 0.8rem;
   color: #ab904d;
+}
+
+.prices .dynamic .optional .covid {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.prices .dynamic .optional .covid p {
+  text-align: left;
+}
+
+.prices .dynamic .optional .covid p a {
+  color: #ab904d;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.prices .dynamic .book2 {
+  text-align: center;
+}
+
+.prices .dynamic .btn {
+  background-color: black;
+  color: #ab904d;
+  font-size: 1.2rem;
+  border: 2px solid #ab904d;
+}
+
+.prices .dynamic .btn:hover {
+  background-color: #ab904d;
+  color: black;
 }
 
 .prices ul {
@@ -162,10 +213,16 @@ body {
   padding: 3rem;
 }
 
+.prices .output div {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
 .prices .output h4 {
   color: #ab904d;
   text-align: left;
   font-size: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .prices .output h5 {
@@ -173,7 +230,7 @@ body {
 }
 
 .prices .output p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .promotions {
@@ -184,7 +241,13 @@ body {
 
 .promotions h2 {
   color: #ab904d;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.promotions h4 {
+  color: white;
   text-align: center;
 }
 
@@ -194,12 +257,17 @@ body {
   padding: 0;
 }
 
-.hours {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 4rem;
+.promotions p:nth-child(5) {
+  margin: 0;
 }
 
-.hours h3 {
+.hours {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10rem 2rem 0 2rem;
+  height: 100vh;
+}
+
+.hours h3, .hours footer h3 a, footer h3 .hours a {
   color: #ab904d;
   font-size: 1.25rem;
   text-align: center;
@@ -211,7 +279,7 @@ body {
 }
 
 .location {
-  padding: 0;
+  padding-top: 1rem;
   background-color: black;
 }
 
@@ -230,13 +298,22 @@ body {
 .contactme {
   background-color: black;
   padding: 4rem 0 1rem 0;
+  text-align: center;
 }
 
-.contactme h1 {
+.contactme h1, .contactme h1 a, .contactme a {
   color: #ab904d;
   font-size: 0.8rem;
-  text-align: center;
   margin: 0;
+}
+
+.contactme a {
+  font-size: 1rem;
+}
+
+.contactme a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .contactme .social {
@@ -250,8 +327,15 @@ body {
 }
 
 .contactme .social a:hover {
-  color: white;
   text-decoration: none;
+}
+
+.contactme .social a:hover:first-child {
+  color: lightblue;
+}
+
+.contactme .social a:hover:last-child {
+  color: orangered;
 }
 
 footer {
@@ -260,9 +344,20 @@ footer {
   border-top: 2px solid #ab904d;
 }
 
-footer h3 {
+footer h3, footer h3 a {
   color: #ab904d;
   font-size: 0.8rem;
   text-align: center;
   width: 100%;
+}
+
+footer h3 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 680px) {
+  .main-logo {
+    width: 680px;
+  }
 }
