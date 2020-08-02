@@ -28,10 +28,10 @@ body:before {
     z-index: -10;
     background-image: url('floralwp.jpg');
     background-repeat: no-repeat;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 
