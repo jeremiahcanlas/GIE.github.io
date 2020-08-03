@@ -36,7 +36,7 @@ $(document).ready(function () {
         <br>
         <h5>Dip Powder Manicure  $38</h5>
         <p>(45 min - overlay)</p>
-        <p>(60 min - Remove & Reapply)</p>
+        <p>With Removal $45 (60 min)</p>
         </div>
         <div class="book2 mt-4 pb-4">
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
@@ -129,9 +129,9 @@ $(document).ready(function () {
             <div class='col-sm-6'>
                 <h4>Lashes</h4>
                 <p>Lash Lift $60</p>
+                <p>Lash Lift & Tint $70</p>
                 <p class='mb-0'><b>Lash Lifts give your natural lashes a beautiful curl!</b></p>
                 <p><b>It is low maintenance, with results lasting up to 8 weeks.</b></p>
-                <p>Lash Lift & Tint $70</p>
             </div>
             <div class='col-sm-6'>
                 <h4>Tinting</h5>
@@ -153,8 +153,8 @@ $(document).ready(function () {
         $('.output').hide().fadeIn().html(`
         <div class="thisoutput container-fluid">
                 <h4>Relaxation Massage</h4>
-                <p>Back & Neck Massage $40</p>
-                <p>Full Body Massage $65</p>
+                <p>Back & Neck Massage $40 (30 min)</p>
+                <p>Full Body Massage $65 (60 min)</p>
         </div>
         `)
         $('.optional').hide()
