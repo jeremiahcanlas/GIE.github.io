@@ -225,6 +225,7 @@ body:before {
 
         .book2 {
             text-align: center;
+            margin: auto;
         }
 
         .btn {
@@ -264,8 +265,57 @@ body:before {
         background-color:$main-color;
         padding: 0;
 
+
         .thisoutput{
-            padding:3rem;
+            margin:auto;
+            padding: 2rem 1rem;
+
+    
+
+            table {
+                margin: auto;
+             
+
+                thead {
+
+                    h4 {
+                        font-size: 1.5rem;
+                        padding-bottom: 1.2rem;
+                    }
+                }
+
+                h5{
+                    font-size: 1.3rem;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                    margin-bottom: 0!important;
+                    text-align: left;
+                }
+
+                h3{
+                    font-size: 1rem;
+                    margin-right: 3rem;
+                }
+
+
+                p{
+                    font-size: 0.7rem;
+                    margin-right: 3rem;
+                }
+
+                
+
+            }
+
+            .lash-p {
+                font-size: 0.7rem;
+                margin: auto;
+                width: 12rem;
+            }
+
+            
 
         }
 
@@ -297,9 +347,9 @@ body:before {
 
 .promotions {
     background-color: $main-color;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    padding-top: 18rem;
+    padding-top: 14rem;
     text-align: center;
 
 
@@ -448,9 +498,9 @@ border-top: 2px solid $sub-color;
 
 }
 
-// responsive sizes
+// media query
 
-//set max width for logo`
+//set max width for logo
 @media screen and (min-width:680px){
 
     .main-logo {

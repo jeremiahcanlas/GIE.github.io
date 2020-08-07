@@ -184,6 +184,7 @@ body:before {
 
 .prices .dynamic .book2 {
   text-align: center;
+  margin: auto;
 }
 
 .prices .dynamic .btn {
@@ -219,7 +220,43 @@ body:before {
 }
 
 .prices .output .thisoutput {
-  padding: 3rem;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.prices .output .thisoutput table {
+  margin: auto;
+}
+
+.prices .output .thisoutput table thead h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.prices .output .thisoutput table h5 {
+  font-size: 1.3rem;
+}
+
+.prices .output .thisoutput table h4 {
+  font-size: 1rem;
+  margin-bottom: 0 !important;
+  text-align: left;
+}
+
+.prices .output .thisoutput table h3, .prices .output .thisoutput table footer h3 a, footer h3 .prices .output .thisoutput table a {
+  font-size: 1rem;
+  margin-right: 3rem;
+}
+
+.prices .output .thisoutput table p {
+  font-size: 0.7rem;
+  margin-right: 3rem;
+}
+
+.prices .output .thisoutput .lash-p {
+  font-size: 0.7rem;
+  margin: auto;
+  width: 12rem;
 }
 
 .prices .output div {
@@ -244,9 +281,9 @@ body:before {
 
 .promotions {
   background-color: black;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
-  padding-top: 18rem;
+  padding-top: 14rem;
   text-align: center;
 }
 
