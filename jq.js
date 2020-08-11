@@ -86,7 +86,7 @@ $(document).ready(function () {
             <td>
                 <h5>Dip Powder Manicure</h5>
                 <p class='mb-0'>Cut, File, Cuticle Care, Polish, Massage</p>
-                <p>(45 min - overlay)</p>
+                <p>(45 min)</p>
                 <h3 class='mb-0'>With Removal</h3>
                 <p>(60 min)</p>
             <td>
@@ -124,7 +124,9 @@ $(document).ready(function () {
                 <tr>
                     <td>
                         <h5>Express Pedicure</h5>
-                        <p>Soak, Cut, File, Cuticle Care, Polish</p>
+                        <p class='mb-0'>Soak, Cut, File, Cuticle Care, Polish</p>
+                        <p>(20 min)</p>
+
                     </td>
                     <td>
                         <h4>30</h4>
@@ -134,7 +136,8 @@ $(document).ready(function () {
                 <tr>
                     <td>
                         <h5>Regular Pedicure</h5>
-                        <p>Soak, Cut, File, Cuticle care, Callous Care, Massage, Polish</p>
+                        <p class='mb-0'>Soak, Cut, File, Cuticle care, Callous Care, Massage, Polish</p>
+                        <p>(45 min)</p>
                     </td>
                     <td>
                         <h4>40</h4>
@@ -144,7 +147,9 @@ $(document).ready(function () {
                 <tr>
                     <td>
                         <h5>Spa Pedicure</h5>
-                        <p>Soak, Cut, File, Cuticle Care, Callous Care, Exfoliating Scrub, Massage, Paraffin wax, Polish</p>
+                        <p class='mb-0'>Soak, Cut, File, Cuticle Care, Callous Care, Exfoliating Scrub, Massage, Paraffin wax, Polish</p>
+                        <p>(75 min)</p>
+
                     </td>
                     <td>
                         <h4>50</h4>
@@ -154,7 +159,8 @@ $(document).ready(function () {
                 <tr>
                     <td>
                         <h5>Gel Polish Pedicure</h5>
-                        <p>Soak, Cut, File, Cuticle care, Callous care, Polish, Massage</p>
+                        <p class='mb-0'>Soak, Cut, File, Cuticle care, Callous care, Polish, Massage</p>
+                        <p>(45 min)</p>
                     </td>
                     <td>
                         <h4>45</h4>
@@ -547,7 +553,7 @@ $(document).ready(function () {
                     </tr>          
                     <tr>
                         <td>
-                            <h3>French Application</h3>
+                            <h3>French application</h3>
                         </td>
                         <td>
                             <h4>10</h4>
@@ -555,7 +561,7 @@ $(document).ready(function () {
                     </tr>          
                     <tr>
                         <td>
-                            <h3>Add Gel Polish to Service</h3>
+                            <h3>Add gel polish to service</h3>
                         </td>
                         <td>
                             <h4>5</h4>
@@ -563,7 +569,7 @@ $(document).ready(function () {
                     </tr>
                     <tr>
                         <td>
-                            <h3>Gel Polish Removal Only</h3>
+                            <h3>Gel polish removal only</h3>
                         </td>
                         <td>
                             <h4>12</h4>
@@ -571,7 +577,7 @@ $(document).ready(function () {
                     </tr>
                     <tr>
                         <td>
-                            <h3>Gel Polish Removal with a Service</h3>
+                            <h3>Gel polish removal with a service</h3>
                         </td>
                         <td>
                             <h4>7</h4>
@@ -579,7 +585,7 @@ $(document).ready(function () {
                     </tr>
                     <tr>
                         <td>
-                            <h3>Dip Powder Removal Only</h3>
+                            <h3>Dip powder removal only</h3>
                         </td>
                         <td>
                             <h4>15</h4>
@@ -587,7 +593,7 @@ $(document).ready(function () {
                     </tr>
                     <tr>
                         <td>
-                            <h3>Polish Change</h3>
+                            <h3>Polish change</h3>
                         </td>
                         <td>
                             <h4>12</h4>
@@ -595,7 +601,7 @@ $(document).ready(function () {
                     </tr>
                     <tr>
                         <td>
-                            <h3>Nail Art Accent Nails</h3>
+                            <h3>Nail art accent nails</h3>
                         </td>
                         <td>
                             <h4>2</h4>
