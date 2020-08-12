@@ -476,6 +476,15 @@ footer h3 a:hover {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .breakdown {
+    height: 40vh;
+  }
+  .promotions {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-height: 375px) {
   .main-logo {
     width: 300px;

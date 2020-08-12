@@ -581,6 +581,17 @@ border-top: 2px solid $sub-color;
     }
 }
 
+@media screen and (max-width:375px){
+
+    .breakdown{
+        height: 40vh;
+    }
+
+    .promotions {
+        height: 100vh;
+    }
+}
+
 //landscape media query
 @media screen and (max-height:375px) {
 
