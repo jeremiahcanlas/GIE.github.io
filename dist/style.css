@@ -289,14 +289,14 @@ body:before {
   background-color: black;
   height: 80vh;
   width: 100%;
-  padding-top: 14rem;
+  padding-top: 12rem;
   text-align: center;
 }
 
 .promotions h2 {
   color: #ab904d;
   font-size: 1.8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
   margin-right: 1.4rem;
 }
 
@@ -476,12 +476,15 @@ footer h3 a:hover {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
+  .book-now {
+    padding-top: 14rem;
+  }
   .breakdown {
     height: 40vh;
   }
   .promotions {
-    height: 100vh;
+    height: 90vh;
   }
 }
 

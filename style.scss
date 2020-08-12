@@ -58,12 +58,6 @@ body:before {
             color: $sub-color;
         }
 
-        // .btn {
-        //     background-color: $sub-color;
-        //     font-size: 0.8rem;
-        //     margin-left: 2rem;
-        //     border: 1px solid $main-color;
-        // }
     
     }
 }
@@ -351,21 +345,15 @@ body:before {
     background-color: $main-color;
     height: 80vh;
     width: 100%;
-    padding-top: 14rem;
+    padding-top: 12rem;
     text-align: center;
 
-
-    // .row {
-    //     justify-content: center; 
-    // }
 
     h2 {
         color: $sub-color;
         font-size: 1.8rem;
-        // text-align: center;
-        padding-bottom: 2rem;
+        padding-bottom: 0.5rem;
         margin-right: 1.4rem;
-        // margin: auto;
     }
 
     h4 {
@@ -376,9 +364,6 @@ body:before {
         padding: 0;
     }
 
-    // p:nth-child(2) {
-    //     margin:0;
-    // }
 }
 
 #scroller {
@@ -581,14 +566,18 @@ border-top: 2px solid $sub-color;
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:450px){
+
+    .book-now{
+        padding-top:14rem;
+    }
 
     .breakdown{
         height: 40vh;
     }
 
     .promotions {
-        height: 100vh;
+        height: 90vh;
     }
 }
 
