@@ -412,7 +412,8 @@ body:before {
     }
 
     .innerScrollArea {
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: auto;
         position: absolute;
         left: 0;
         right: 0;
