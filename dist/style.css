@@ -476,7 +476,7 @@ footer h3 a:hover {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .breakdown {
     height: 40vh;
   }
