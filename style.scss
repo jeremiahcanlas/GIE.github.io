@@ -8,15 +8,6 @@ $fade:rgba(0, 0, 0, 0.8);
     padding: 0;
 }
 
-
-// body {
-//     background-color: $main-color;
-//     background-image: url('floralwp.jpg');
-//     background-repeat: repeat;
-//     background-size: auto;
-//     background-attachment: fixed;   
-// }
-
 body:before {
     content: "";
     display: block;
@@ -221,11 +212,16 @@ body:before {
                 }
                 
             }
+  
         }
 
         .book2 {
             text-align: center;
             margin: auto;
+        }
+        
+        .book3{
+            @extend .book2;
         }
 
         .btn {
@@ -238,6 +234,12 @@ body:before {
         .btn:hover {
             background-color: $sub-color;
             color: $main-color;
+        }
+
+        .backto {
+            text-align: center;
+            padding-top: 1rem;
+            display: none;
         }
     
 
@@ -379,6 +381,66 @@ body:before {
     // }
 }
 
+#scroller {
+    position: relative;
+    background-color: $fade;
+    width: 100%;
+
+    .prodheader{
+        text-align: center;
+        margin: auto;
+        padding-top: 4rem;
+
+        h1{
+            margin-right: 0;
+        }
+    }
+
+
+    h1{
+        color: $sub-color;
+        font-size: 1.8rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-right: 1.4rem;
+    }
+
+    p{
+        color: $sub-color;
+        font-size: 0.9rem;
+        padding-top: 0;
+    }
+
+    .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 60%;
+        margin: auto;
+        padding-top: 10rem;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+
+        img{
+            border: 2px solid black;
+        }
+    }
+}
+
 .hours {
     background-color: $fade;
     padding: 10rem 2rem 0 2rem;
@@ -508,6 +570,14 @@ border-top: 2px solid $sub-color;
         width:680px
     }
     
+}
+
+//portrait reliability
+@media screen and (max-width:930px){
+
+    .innerScrollArea{
+        width: 100vw!important;
+    }
 }
 
 //landscape media query
