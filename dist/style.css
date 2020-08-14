@@ -472,10 +472,10 @@ footer h3 a:hover {
 
 @media screen and (max-width: 930px) {
   .prices {
-    padding-top: 12rem;
+    padding-top: 14rem;
   }
   .promotions {
-    padding-top: 12rem !important;
+    padding-top: 14rem !important;
   }
   .innerScrollArea {
     width: 100vw !important;
@@ -489,8 +489,12 @@ footer h3 a:hover {
   .breakdown {
     height: 40vh;
   }
+  .prices {
+    padding-top: 12rem !important;
+  }
   .promotions {
     height: 90vh;
+    padding-top: 12rem !important;
   }
 }
 
