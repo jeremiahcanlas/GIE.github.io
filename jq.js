@@ -103,6 +103,7 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -176,6 +177,7 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -412,6 +414,8 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -490,6 +494,8 @@ $(document).ready(function () {
         </div>
 
         `)
+
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
         
@@ -534,6 +540,8 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -631,6 +639,8 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -741,6 +751,8 @@ $(document).ready(function () {
         <a class="btn btn-light" href="https://www.fresha.com/golden-image-esthetics-s61lxhoz/booking?menu=true" target="_blank" >Book Now</a>  
         </div>
         `)
+
+        $('.alert').hide()
         $('.optional').hide()
         $('.backto').fadeIn(2000)
 
@@ -750,6 +762,7 @@ $(document).ready(function () {
 
     $('.backto').click(function(){
 
+        $('.alert').fadeIn()
         $('.optional').fadeIn()
         $('.thisoutput').hide()
         $('.backto').hide()

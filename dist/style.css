@@ -139,6 +139,13 @@ body:before {
   margin: 0;
 }
 
+.prices .dynamic .alert {
+  color: #ab904d;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 0;
+}
+
 .prices .dynamic .optional p {
   color: #ab904d;
   text-align: center;
