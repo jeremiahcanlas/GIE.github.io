@@ -142,7 +142,7 @@ body:before {
 .prices .dynamic .alert {
   color: #ab904d;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 0;
 }
 
@@ -495,6 +495,9 @@ footer h3 a:hover {
   }
   .breakdown {
     height: 40vh;
+  }
+  .alert {
+    font-size: 0.7rem !important;
   }
   .prices {
     padding-top: 12rem !important;
