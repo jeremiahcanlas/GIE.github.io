@@ -30,7 +30,7 @@ $(document).ready(function () {
                     <p class='mb-0'>Cut, File, Cuticle Care, Regular Polish</p>
                     <p>(20 min)</p>
                 <td>
-                    <h4>20</h4>
+                    <h4>25</h4>
                     <br>
                 </td>            
             </tr>          
@@ -40,7 +40,7 @@ $(document).ready(function () {
                     <p class='mb-0'>Cut, File, Cuticle Care, Massage, Regular Polish</p>
                     <p>(40 min)</p>
                 <td>
-                    <h4>28</h4>
+                    <h4>30</h4>
                     <br>
                 </td>            
             </tr>          
@@ -50,7 +50,7 @@ $(document).ready(function () {
                     <p class='mb-0'>Soak, Cut, File, Cuticle Care, Exfoliating Scrub, Massage, Paraffin Wax, Regular Polish</p>
                     <p>(60 min)</p>
                 <td>
-                    <h4>40</h4>
+                    <h4>42</h4>
                     <br>
                 </td>            
             </tr>          
@@ -62,9 +62,9 @@ $(document).ready(function () {
                     <h3 class='mb-0'>With Removal</h3>
                     <p>(50 min)</p>
                 <td>
-                    <h4>32</h4>
+                    <h4>35</h4>
                     <br>
-                    <h4>39</h4>
+                    <h4>42</h4>
                     <br>
                 </td>
             </tr> 
@@ -76,9 +76,9 @@ $(document).ready(function () {
                     <h3 class='mb-0'>With Removal</h3>
                     <p>(55 min)</p>
                 <td>
-                    <h4>35</h4>
+                    <h4>38</h4>
                     <br>
-                    <h4>42</h4>
+                    <h4>45</h4>
                     <br>
                 </td>
             </tr>
@@ -90,9 +90,9 @@ $(document).ready(function () {
                 <h3 class='mb-0'>With Removal</h3>
                 <p>(60 min)</p>
             <td>
-                <h4>38</h4>
+                <h4>41</h4>
                 <br>
-                <h4>45</h4>
+                <h4>48</h4>
             </td>
             </tr>            
         </tbody>
@@ -132,7 +132,7 @@ $(document).ready(function () {
 
                     </td>
                     <td>
-                        <h4>30</h4>
+                        <h4>32</h4>
                         <br>
                     </td>            
                 </tr>          
@@ -143,7 +143,7 @@ $(document).ready(function () {
                         <p>(45 min)</p>
                     </td>
                     <td>
-                        <h4>40</h4>
+                        <h4>45</h4>
                         <br>
                     </td>            
                 </tr>          
@@ -155,7 +155,7 @@ $(document).ready(function () {
 
                     </td>
                     <td>
-                        <h4>50</h4>
+                        <h4>55</h4>
                         <br>
                     </td>            
                 </tr>          
@@ -166,7 +166,7 @@ $(document).ready(function () {
                         <p>(45 min)</p>
                     </td>
                     <td>
-                        <h4>45</h4>
+                        <h4>48</h4>
                         <br>
                     </td>
                 </tr>          
@@ -442,7 +442,7 @@ $(document).ready(function () {
                             <h3>Lash Lift</h3>
                         </td>
                         <td>
-                            <h4>60</h4>
+                            <h4>65</h4>
                         </td>            
                     </tr>          
                     <tr>
@@ -450,7 +450,7 @@ $(document).ready(function () {
                             <h3>Lash Lift & Tint</h3>
                         </td>
                         <td>
-                            <h4>70</h4>
+                            <h4>75</h4>
                         </td>            
                     </tr>          
                 </tbody>
@@ -521,7 +521,7 @@ $(document).ready(function () {
                             <p>(30 min)</p>
                         </td>
                         <td>
-                            <h4>40</h4>
+                            <h4>45</h4>
                         </td>            
                     </tr>          
                     <tr>
@@ -530,7 +530,7 @@ $(document).ready(function () {
                             <p>(60 min)</p>
                         </td>
                         <td>
-                            <h4>65</h4>
+                            <h4>70</h4>
                         </td>            
                     </tr>          
                 </tbody>
