@@ -28,26 +28,21 @@ body:before {
   width: 100vw;
   text-align: center;
 }
-
 .main .logo {
   background-color: black;
 }
-
 .main .logo .main-logo {
   background-color: black;
   padding: 2rem;
   margin: auto;
 }
-
 .main .navbar {
   background-color: black;
   justify-content: center;
 }
-
 .main .navbar .nav-link {
   color: white;
 }
-
 .main .navbar .nav-link:hover {
   color: #ab904d;
 }
@@ -58,40 +53,33 @@ body:before {
   padding-top: 18rem;
   padding-bottom: 4rem;
 }
-
 .book-now .greeting {
   color: #ab904d;
   font-size: 1.5rem;
 }
-
 .book-now .btn {
   background-color: black;
   color: #ab904d;
   font-size: 1.5rem;
   border: 3px solid #ab904d;
 }
-
 .book-now .btn:hover {
   background-color: #ab904d;
   color: black;
 }
-
 .book-now h2 {
   color: #ab904d;
   font-size: 1.5rem;
 }
-
 .book-now h3, .book-now footer h3 a, footer h3 .book-now a {
   color: white;
   font-size: 1.5rem;
   margin-top: 3rem;
 }
-
 .book-now h4 {
   color: white;
   font-size: 1.2rem;
 }
-
 .book-now p {
   color: white;
   font-size: 0.8rem;
@@ -101,18 +89,15 @@ body:before {
   padding: 4rem;
   background-color: black;
 }
-
 .breakdown h2 {
   font-size: 1.6rem;
   text-align: center;
   color: #ab904d;
 }
-
 .breakdown p {
   text-align: center;
   color: white;
 }
-
 .breakdown p span {
   color: #ab904d;
   font-style: italic;
@@ -120,200 +105,180 @@ body:before {
 
 .prices {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 14rem 0 22rem 0;
+  padding: 14rem 0 5rem 0;
 }
-
 .prices h2 {
   color: #ab904d;
   text-align: center;
   font-size: 1.5rem;
 }
-
 .prices ul {
   padding: 0 1rem;
 }
-
 .prices .dynamic {
   max-width: 100%;
   padding: 0;
   margin: 0;
 }
-
 .prices .dynamic .alert {
   color: #ab904d;
   text-align: center;
   font-size: 0.8rem;
   padding-top: 0;
 }
-
+.prices .dynamic .service-menu .btn {
+  font-size: 0.9rem;
+  background-color: #ab904d;
+  color: black;
+  border: 2px solid black;
+}
+.prices .dynamic .service-menu .btn:hover {
+  background-color: black;
+  color: #ab904d;
+  border: 2px solid #ab904d;
+}
+.prices .dynamic .service-menu .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 .prices .dynamic .optional p {
   color: #ab904d;
   text-align: center;
   font-size: 1rem;
   color: white;
 }
-
 .prices .dynamic .optional .policy, .prices .dynamic .optional .covid {
   font-size: 0.7rem;
   background-color: black;
   padding: 1rem;
 }
-
 .prices .dynamic .optional .policy h5, .prices .dynamic .optional .covid h5 {
   text-align: center;
   color: #ab904d;
 }
-
 .prices .dynamic .optional .policy h6, .prices .dynamic .optional .covid h6 {
   text-align: center;
   color: #ab904d;
 }
-
 .prices .dynamic .optional .policy p, .prices .dynamic .optional .covid p {
   font-size: 0.8rem;
   color: #ab904d;
 }
-
 .prices .dynamic .optional .covid {
   text-align: center;
   margin-top: 1.5rem;
 }
-
 .prices .dynamic .optional .covid p {
   text-align: left;
 }
-
 .prices .dynamic .optional .covid p a {
   color: #ab904d;
   font-size: 0.7rem;
   font-weight: 800;
 }
-
 .prices .dynamic .book2, .prices .dynamic .book3 {
   text-align: center;
   margin: auto;
 }
-
 .prices .dynamic .btn {
   background-color: black;
   color: #ab904d;
   font-size: 1.2rem;
   border: 2px solid #ab904d;
 }
-
 .prices .dynamic .btn:hover {
   background-color: #ab904d;
   color: black;
 }
-
 .prices .dynamic .backto {
   text-align: center;
   padding-top: 1rem;
   display: none;
 }
-
 .prices ul {
   text-align: center;
 }
-
 .prices a {
   color: #ab904d;
   font-size: 1rem;
 }
-
 .prices a:hover {
   color: white;
   text-decoration: none;
 }
-
 .prices .output {
   color: white;
   background-color: black;
   padding: 0;
 }
-
 .prices .output .thisoutput {
   margin: auto;
   padding: 2rem 1rem;
 }
-
 .prices .output .thisoutput table {
   margin: auto;
 }
-
 .prices .output .thisoutput table thead h4 {
   font-size: 1.5rem;
   padding-bottom: 1.2rem;
 }
-
 .prices .output .thisoutput table h5 {
   font-size: 1.3rem;
 }
-
 .prices .output .thisoutput table h4 {
   font-size: 1rem;
   margin-bottom: 0 !important;
   text-align: left;
 }
-
 .prices .output .thisoutput table h3, .prices .output .thisoutput table footer h3 a, footer h3 .prices .output .thisoutput table a {
   font-size: 1rem;
   margin-right: 3rem;
 }
-
 .prices .output .thisoutput table p {
   font-size: 0.7rem;
   margin-right: 3rem;
 }
-
 .prices .output .thisoutput .lash-p {
   font-size: 0.7rem;
   margin: auto;
   width: 12rem;
 }
-
 .prices .output div {
   padding: 0;
   margin-bottom: 2rem;
 }
-
 .prices .output h4 {
   color: #ab904d;
   text-align: left;
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
 }
-
 .prices .output h5 {
   font-size: 1rem;
 }
-
 .prices .output p {
   font-size: 0.9rem;
 }
 
-.promotions {
-  background-color: black;
-  height: 80vh;
-  width: 100%;
-  padding-top: 14rem;
-  text-align: center;
+#promotion {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 16rem;
 }
-
-.promotions h2 {
+#promotion .promotions {
+  background-color: black;
+  text-align: center;
+  border: 2px solid #ab904d;
+}
+#promotion .promotions h2 {
   color: #ab904d;
   font-size: 1.8rem;
   padding-bottom: 0.5rem;
-  margin-right: 1.4rem;
 }
-
-.promotions h4 {
+#promotion .promotions h4 {
   color: white;
 }
-
-.promotions p {
+#promotion .promotions p {
   color: white;
-  padding: 0;
 }
 
 #scroller {
@@ -321,17 +286,14 @@ body:before {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
 }
-
 #scroller .prodheader {
   text-align: center;
   margin: auto;
   padding-top: 4rem;
 }
-
 #scroller .prodheader h1, #scroller .prodheader .contactme a, .contactme #scroller .prodheader a {
   margin-right: 0;
 }
-
 #scroller h1, #scroller .contactme a, .contactme #scroller a {
   color: #ab904d;
   font-size: 1.8rem;
@@ -339,13 +301,11 @@ body:before {
   margin-bottom: 0;
   margin-right: 1.4rem;
 }
-
 #scroller p {
   color: #ab904d;
   font-size: 0.9rem;
   padding-top: 0;
 }
-
 #scroller .innerScrollArea {
   overflow-y: hidden;
   overflow-x: auto;
@@ -358,36 +318,30 @@ body:before {
   margin: auto;
   padding-top: 10rem;
 }
-
 #scroller ul {
   padding: 0;
   margin: 0;
   position: relative;
 }
-
 #scroller li {
   padding: 0;
   margin: 0;
   list-style-type: none;
   position: absolute;
 }
-
 #scroller li img {
   border: 2px solid black;
 }
 
 .hours {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 10rem 2rem 0 2rem;
-  height: 100vh;
+  padding: 10rem 2rem 6rem 2rem;
 }
-
 .hours h3, .hours footer h3 a, footer h3 .hours a {
   color: #ab904d;
   font-size: 1.25rem;
   text-align: center;
 }
-
 .hours p {
   text-align: center;
   color: white;
@@ -397,14 +351,12 @@ body:before {
   padding-top: 1rem;
   background-color: black;
 }
-
 .location p {
   font-size: 0.8rem;
   color: white;
   text-align: center;
   margin-bottom: 0;
 }
-
 .location iframe {
   height: 30vh;
   width: 100%;
@@ -415,40 +367,32 @@ body:before {
   padding: 4rem 0 1rem 0;
   text-align: center;
 }
-
-.contactme h1, .contactme h1 a, .contactme a {
+.contactme h1, .contactme a, .contactme a a, .contactme h1 a {
   color: #ab904d;
   font-size: 0.8rem;
   margin: 0;
 }
-
 .contactme a {
   font-size: 1rem;
 }
-
 .contactme a:hover {
   text-decoration: none;
   color: white;
 }
-
 .contactme .social {
   text-align: center;
 }
-
 .contactme .social a {
   padding: 0 1rem 0 1rem;
   font-size: 2rem;
   color: #ab904d;
 }
-
 .contactme .social a:hover {
   text-decoration: none;
 }
-
 .contactme .social a:hover:first-child {
   color: cornflowerblue;
 }
-
 .contactme .social a:hover:last-child {
   color: orangered;
 }
@@ -458,14 +402,12 @@ footer {
   padding: 1rem;
   border-top: 2px solid #ab904d;
 }
-
 footer h3, footer h3 a {
   color: #ab904d;
   font-size: 0.8rem;
   text-align: center;
   width: 100%;
 }
-
 footer h3 a:hover {
   color: white;
   text-decoration: none;
@@ -476,52 +418,58 @@ footer h3 a:hover {
     width: 680px;
   }
 }
-
 @media screen and (max-width: 930px) {
   .prices {
     padding-top: 14rem;
   }
-  .promotions {
-    padding-top: 14rem !important;
-  }
+
   .innerScrollArea {
-    width: 100vw !important;
+    width: 100% !important;
   }
 }
-
 @media screen and (max-width: 450px) {
+  #promotion {
+    padding-top: 12rem;
+  }
+  #promotion .promotions h2 {
+    font-size: 1.2rem !important;
+  }
+  #promotion .promotions h4 {
+    font-size: 1rem;
+  }
+  #promotion .promotions p {
+    font-size: 0.8rem;
+  }
+
   .book-now {
     padding-top: 14rem;
   }
+
   .breakdown {
     height: 40vh;
   }
+
   .alert {
     font-size: 0.7rem !important;
   }
+
   .prices {
     padding-top: 12rem !important;
   }
-  .promotions {
-    height: 90vh;
-    padding-top: 12rem !important;
-  }
 }
-
 @media screen and (max-height: 375px) {
   .main-logo {
     width: 300px;
   }
+
   .book-now {
     padding-top: 11rem;
   }
+
   .prices {
     padding-top: 11rem;
   }
-  .promotions {
-    padding-top: 10rem;
-    padding-bottom: 14rem;
-  }
+
   .hours {
     padding-top: 3rem;
   }
